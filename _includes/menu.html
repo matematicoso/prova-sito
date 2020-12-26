@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=EB+Garamond&family=Playfair+Display&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <style>
+      @media (min-width:601px){
+        body>div{
+          display:none;
+        }
+        a{
+          text-decoration: none;
+          margin:20px;
+          color:black;
+          font-family: 'EB Garamond','Cormorant Garamond',serif;
+        }
+        .Quinto-livello>a{
+          display:inline-block;
+          margin:0 0 0 7.5%;
+        }
+          div {
+            width:100%;
+          }
+          h1{
+            color:#750505;
+            text-align:center;
+            font-size:7vw;
+            margin-top:0px;
+            margin-bottom:0px;
+            font-family: 'Playfair Display','Cormorant Garamond',serif;
+            display:inline-block;
+          }
+          .Primo-livello>a, .Secondo-livello>a{
+            padding-left:1.2vw;
+            padding-right:1.2vw;
+            padding-top:0.5vw;
+            padding-bottom:0.5vw;
+            border:1px solid black;
+            margin:0;
+            width:10%;
+            text-decoration: none;
+            font-family: 'EB Garamond','Cormorant Garamond',serif;
+            text-align:center;
+            display:inline-block;
+          }
+          .Terzo-livello{
+            display: none;
+            position: absolute;
+            border:1px solid black;
+            width:50%;
+            transform:translateY(1vw);
+          }
+          .Quarto-livello{
+            display: none;
+            width:26%;
+          }
+          .Quinto-livello{
+            display: none;
+          }
+          .Secondo-livello:hover .Terzo-livello, .Quarto-livello{
+            display:block;
+            right:25vw;
+            font-size:1vw;
+            line-height:200%;
+          }
+          .Quarto-livello:hover .Quinto-livello{
+            display:inline;
+            position: absolute;
+            right:0px;
+            width:76%;
+          }
+          .Primo-livello{
+            display:inline-block;
+            font-size:1.5vw;
+            width:100%;
+            text-align:center;
+            margin:0px;
+            padding:0px;
+          }
+          .Secondo-livello{
+            display:inline;
+            padding-bottom:2vw;
+            text-align:left;
+          }
+          .Linea{
+            border-top:2px solid black;
+            width:50%;
+            margin:auto;
+          }
+          html,body{
+            margin:0px;
+            text-align:center;
+          }
+          .Logo{
+            width:13%;
+            float: left;
+            left:30%;
+            position: relative;
+          }
+      }
+      @media (max-width:600px) {
+        header{
+          display:none;
+        }
+        body > div{
+          display:none;
+        }
+        body>div:target{
+          display:block;
+          height:100%;
+        }
+        #heading{
+          display:inline-block;
+          height:auto;
+        }
+        body>div:target ~ #heading{
+          display:none;
+        }
+        html,body{
+          margin:0;
+          font-family: 'Playfair Display','Cormorant Garamond',serif;
+          text-align:center;
+          height:100%;
+        }
+        h1{
+          color:#750505;
+          font-size:19vw;
+          margin-top:0;
+          margin-bottom:0;
+          float:left;
+          margin-left:7%;
+          font-weight:normal;
+        }
+        .logo{
+          width:25%;
+          display:inline-block;
+          float:left;
+          transform:translateY(30%);
+          margin-left:2%;
+
+        }
+        a{
+          text-decoration: none;
+          color:black;
+          margin:0;
+          }
+        .linea{
+          margin-left:7%;
+          border-top:2px solid black;
+          width:76%;
+          float: left;
+          display:inline-block;
+        }
+        .pallini{
+          margin-left:2%;
+          width:8%;
+          display:inline-block;
+          float: left;
+          transform:translateY(-35%);
+        }
+        .comandi{
+          display:block;
+          width:100%;
+          height:10%;
+        }
+        .undo{
+          float:left;
+          height:100%;
+          margin-left:5%;
+        }
+        .home{
+          float:right;
+          height:100%;
+          margin-right:5%;
+        }
+        .items{
+          display:table;
+          width:100%;
+          height:90%;
+        }
+        .items>span{
+          display:table-cell;
+          vertical-align:middle;
+        }
+        h3{
+          text-decoration: none;
+          color:black;
+          font-size:7vw;
+          padding-bottom:4vh;
+          display:block;
+          font-weight:normal;
+          margin:0;
+        }
+        .menu,.menu1{
+          height:100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="Icaro.svg" class="Logo" alt="Logo">
+      <h1>ICARO</h1>
+      <nav>
+        <div class="Linea">
+        </div><br>
+        <div class="Primo-livello">
+          <a href="#">esplora</a><!--
+          --><div class="Secondo-livello"><!--
+          --><a href="#"> argomenti</a><!--
+            --><div class="Terzo-livello"><!--
+              --><div class="Quarto-livello"><!--
+                --><a href="#">sottomenu1</a><!--
+                --><div class="Quinto-livello"><!--
+                  --><a href="#">sottosottomenu1</a><!--
+                  --><a href="#">sottosottomenu2</a><!--
+                  --><a href="#">sottosottomenu3</a><!--
+                  --><a href="#">sottosottomenu4</a><!--
+                --></div><!--
+              --></div><!--
+              --><a href="#">sottomenu2</a><br><!--
+              --><a href="#">sottomenu3</a><br><!--
+              --><a href="#">sottomenu4</a><br><!--
+              --><a href="#">sottomenu5</a><!--
+            --></div><!--
+          --></div><!--
+          --><a href="#">giornalino</a><!--
+          --><a href="#">chi siamo</a>
+        </div>
+      </nav>
+    </header>
+
+    <div id="menu">
+      <div class="comandi">
+        <img src="disegno freccia indietro non attiva.svg" alt="Torna indietro" class="undo">
+        <a href="#heading"><img src="home.png" alt="Home" class="home"></a>
+      </div>
+      <div class="items">
+        <span>
+          <a href="#"><h3>esplora</h3></a>
+          <a href="#menu1"><h3>argomenti</h3></a>
+          <a href="#"><h3>giornalino</h3></a>
+          <a href="#"><h3>chi siamo</h3></a>
+        </span>
+      </div>
+    </div>
+
+    <div id="menu1">
+      <div class="comandi">
+        <a href="#menu"><img src="disegno freccia indietro.svg" alt="Torna indietro" class="undo"></a>
+        <a href="#heading"><img src="home.png" alt="Home" class="home"></a>
+      </div>
+      <div class="items">
+        <span>
+          <a href="#"><h3>sottomenu1</h3></a>
+          <a href="#"><h3>sottomenu2</h3></a>
+          <a href="#"><h3>sottomenu3</h3></a>
+          <a href="#"><h3>sottomenu4</h3></a>
+          <a href="#"><h3>sottomenu5</h3></a>
+          <a href="#"><h3>sottomenu6</h3></a>
+        </span>
+      </div>
+    </div>
+
+    <div id="heading">
+      <h1>ICARO</h1>
+      <img src="Icaro.svg" class="logo" alt="Logo">
+      <div class="linea"></div>
+      <a href="#menu"><img src="pallini3.svg" alt="menu" class="pallini"></a>
+  </body>
+</html>
