@@ -126,6 +126,9 @@
 	    display:inline-block;
 	    margin-top:35%;
 	}
+	#heading:not(:target) ~ #article,.feeds{
+	display:none;
+	}
         html,body{
           margin:0;
           font-family: 'Playfair Display','Cormorant Garamond',serif;
