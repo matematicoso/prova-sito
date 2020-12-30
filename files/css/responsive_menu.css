@@ -119,15 +119,12 @@
  	  top: 0;
  	  left: 0;
         }
-        body>div:target ~ #heading{
+        body>div:target ~ #heading,#article,.feeds{
           display:none;
         }
-	#heading:target ~ #article,.feeds{
+	body>#heading:target ~ #article,.feeds{
 	    display:inline-block;
 	    margin-top:35%;
-	}
-	#heading:not(:target) ~ #article,.feeds{
-	display:none;
 	}
         html,body{
           margin:0;
