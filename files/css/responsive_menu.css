@@ -2,7 +2,7 @@
 	      body>.menu-responsive{
           display:none;
         }
-        a{
+        .anchor{
           text-decoration: none;
           margin:20px;
           color:black;
