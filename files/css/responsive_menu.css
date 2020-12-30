@@ -106,7 +106,7 @@
           display:block;
           height:100%;
         }
-	.feeds,#article{
+	#article{
 	    display:inline-block;
 	    margin-top:35%;
 	}
