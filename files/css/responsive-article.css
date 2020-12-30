@@ -1,0 +1,79 @@
+@media (min-width:601px){
+.titolo{
+color:#750505;
+text-align:center;
+font-family: 'EB Garamond','Cormorant Garamond',serif;
+font-size:2vw;	
+}
+.rettangolo {
+width:50%;
+right:25vw;
+padding:15px;
+border:1px solid white;
+margin-left:25vw;
+font-family: 'EB Garamond','Cormorant Garamond',serif;
+font-size:1vw;	
+text-align:justify;
+}
+.titoletto {
+width:50%;
+right:25vw;
+padding:15px;
+border:1px solid white;
+margin-left:25vw;
+margin-top:2vw;
+font-family: 'EB Garamond','Cormorant Garamond',serif;
+font-size:1vw;	
+color:#750505;
+}
+.immagine{
+width:15vw;
+margin-left:1%;
+float:left;
+border-radius:2.5%
+}
+.descrizione{
+width:8.5%;
+font-family: 'EB Garamond','Cormorant Garamond',serif;
+font-size: 0.8vw;
+float:left;
+word-wrap: break-word;
+}
+}
+@media (max-width:600px){
+.titolo{
+color:#750505;
+text-align:center;
+font-family: 'EB Garamond','Cormorant Garamond',serif;
+margin:0;
+}
+.rettangolo {
+border:1px solid white;
+font-family: 'EB Garamond','Cormorant Garamond',serif;
+display:inline-block;
+text-align:justify;
+padding:0 2vw 0 2vw;
+}
+.immagine{
+width:75vw;
+margin-left:12vw;
+border-radius:2.5%
+margin:0;
+}
+.titoletto {
+padding:1vw;
+border:1px solid white;
+font-family: 'EB Garamond','Cormorant Garamond',serif;
+font-size: 130%;
+color:#750505;
+margin:0;
+}
+.descrizione{
+width:60%;
+padding:1vw;
+font-family: 'EB Garamond','Cormorant Garamond',serif;
+font-size: 80%;
+text-align:center;
+margin:auto;
+}
+}
