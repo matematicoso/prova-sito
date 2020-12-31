@@ -106,7 +106,7 @@
           display:block;
           height:100%;
         }
-	#article{
+	.feeds,#article{
 	    display:inline-block;
 	    margin-top:35%;
 	}
@@ -119,12 +119,13 @@
  	  top: 0;
  	  left: 0;
         }
-        div:target ~ #heading,#article,.feeds{
-          display:none;
-        }
 	body>#heading:target ~ #article,.feeds{
 	    display:inline-block;
 	    margin-top:35%;
+	}
+
+	body>#heading:not(:target) ~ #article,.feeds{
+	display:none;
 	}
         html,body{
           margin:0;
