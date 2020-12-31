@@ -135,6 +135,9 @@
 	    display:inline-block;
 	    margin-top:35%;
 	}
+	body>div:target ~ #heading{
+	    display:none;
+	}
         html,body{
           margin:0;
           font-family: 'Playfair Display','Cormorant Garamond',serif;
