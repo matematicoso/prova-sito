@@ -99,7 +99,7 @@
         header{
           display:none;
         }
-        body>div{
+        div{
           display:none;
         }
         body>div:target{
