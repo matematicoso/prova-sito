@@ -122,7 +122,7 @@
 	body>div:target ~ #article,.feeds{
 	    display:none;
 	}
-	body>#heading:target ~ #article,.feeds{
+	body>#menu:target ~ #article,.feeds{
 	    display:inline-block;
 	    margin-top:35%;
 	}
