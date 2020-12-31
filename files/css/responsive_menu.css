@@ -124,7 +124,7 @@
 	    margin-top:35%;
 	}
 
-	body>div:not(:target) ~ #article,.feeds{
+	body>#menu:not(:target) ~ #article,.feeds{
 	display:none;
 	}
         html,body{
