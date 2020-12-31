@@ -119,15 +119,19 @@
  	  top: 0;
  	  left: 0;
         }
-	body>div:target ~ #article,.feeds{
+	body>div:target ~ #article{
 	    display:none;
 	}
-	body>#heading:target ~ #article,.feeds{
+	body>#heading:target ~ #article{
 	    display:inline-block;
 	    margin-top:35%;
 	}
-        body>#heading:not(:target) ~ #article,.feeds{
+	body>div:target ~ .feeds{
 	    display:none;
+	}
+	body>#heading:target ~ .feeds{
+	    display:inline-block;
+	    margin-top:35%;
 	}
 	body>#article:target ~ #article{
 	    display:inline-block;
