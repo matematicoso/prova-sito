@@ -1,0 +1,51 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+<title>articoli</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=EB+Garamond&family=Playfair+Display&display=swap" rel="stylesheet">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link rel="stylesheet" type="text/css" href="\prova-sito\files\css\responsive_menu.css"/>
+<link rel="stylesheet" type="text/css" href="\prova-sito\files\css\responsive-article.css"/>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+
+{% include menu.html %}
+
+<div  id="article">
+<h1 class="titolo">I numeri irrazionali</h1>
+<p class="rettangolo">Alle scuole elementari, probabilmente ci avranno insegnato ad operare con i numeri naturali (es. 1,2,3,4,...). Successivamente, nel corso degli studi, abbiamo scoperto che esisteva un insieme più grande, che comprendeva i naturali,
+chiamato insieme dei numeri interi. Infine avemo scoperto allo stesso modo l'esistenza di un terzo gruppo chiamato "Insieme dei numeri reali". Pur restando in questo insieme (in realtà esiste un gruppo ancora più grande, che potete trovare <a href="#">qui</a>), spesso ci potremmo trovare di fronte a calcoli "strani".
+Infatti, essi non rispettano una condizione che è solitamente valida in questo insieme numerico: \(n=\frac{a}{b} \text{ con $a$ e $b$ appartenenti a $\mathbb{R}$}\).</p>
+<!--Per inserire altri paragrafi fare copia ed incolla della riga superiore il numero di volte necessario
+ed inserire gli altri paragrafi (tra un paragrafo ed un altro non deve esserci per forza un titoletto).-->
+<img class="immagine" src="numeri irrazionali.png" alt="Gli insiemi numerici" align="left">
+<!--Per inserire altre immagini fare copia ed incolla della riga superiore il numero di volte necessario
+ed inserire le altre immagini allo stesso modo.
+**Il percorso di un'immagine è semplicemente il nome dell'immagine che avete salvata nel vostro pc
+ATTENZIONE: l'immpagine deve essere seguita da un suffisso che ne indica il tipo dell'immagine (ad esempio .jpg oppure .png),
+questo dato è ricavabile cliccando tasto destro sul file dell'immagine per poi cliccare su proprietà, dovrebbe essere la prima voce.-->
+<p class="descrizione">Insiemi numerici</p>
+<!--Per inserire altre descrizioni fare copia ed incolla della riga superiore il numero di volte necessario
+ed inserire le altre descrizioni allo stesso modo.-->
+<h2 class="titoletto">In particolare...</h2>
+<!--Per inserire altri titoli fare copia ed incolla della riga superiore il numero di volte necessario
+ed inserire gli altri titoli allo stesso modo.-->
+<div class="rettangolo">Infatti possiamo dire che all'interno dei numeri reali ci sono due grandi categorie: i numeri razionali e i numeri irrazionali. Tutti gli insiemi che abbiamo visto prima (naturali, interi) fanno parte della prima categoria e rispettano la condizione sopra esplicitata.
+  I numeri irrazionali, leggermente più difficili da trovare, invece non rispettano questa condizione. Un esempio che possiamo trovare facilmente è rappresenato dal calcolo della diagonale di un quadrato. Poniamo ad esempio \(l\) il lato del quadrato.
+  Utilizziamo ora il teorema di Pitagora per calcolare la diagonale (\(d\)):
+  \[d=\sqrt{l^2+l^2}=\sqrt{2\cdot l^2}=l\sqrt{2}\]
+  Concentriamoci ora su \(\sqrt{2}\). Questo è un numero irrazionale, ovvero non è rappresentabile nella forma \(\sqrt{2}=\frac{a}{b}\) (trovate la dimostrazione <a href="../../Dimostrazioni/Dimostrazione radice 2.html">qui</a>).
+  Altri irrazionali famosi sono il numero di Nepero (o di Eulero):
+  \[e=2,7182818284590...\]
+  La sezione aurea:
+  \[\Phi=1,6180339887...\]
+  Pi greco:
+  \[\pi=3,141592653589793...\]</div>
+</div>
+</body>
+</html>
