@@ -12,6 +12,7 @@
           margin-bottom:3%;
         }
         .immagine{
+          display:flex;
           width:100%;
           border:1px solid black;
         }
@@ -27,12 +28,14 @@
 	    width:70%;
 	}
         h3{
+          display:flex;
           font-size:1.4vw;
           margin:0;
           font-weight:normal;
           font-family: 'Playfair Display','Cormorant Garamond',serif;
         }
         p{
+          display:flex;
           font-size:0.8vw;
         }
         a{
