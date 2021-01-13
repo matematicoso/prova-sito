@@ -1,0 +1,35 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+<title>articoli</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=EB+Garamond&family=Playfair+Display&display=swap" rel="stylesheet">
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<link rel="stylesheet" type="text/css" href="\prova-sito\files\css\responsive_menu.css"/>
+<link rel="stylesheet" type="text/css" href="\prova-sito\files\css\responsive-article.css"/>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+
+{% include menu.html %}
+
+<div  id="article">
+<h1 class="titolo">Inserire qui il titolo in maiuscolo della ricerca</h1>
+<p class="rettangolo">Come è possibile vedere <a href="../Spiegazioni/I numeri irrazionali/I numeri irrazionali.html">qui</a>, se un numero è irrazionale allora esso non è rappresentabile come una frazione \(\frac{a}{b}\). Proviamo ora a dimostrare che \(\sqrt{2}\) è irrazionale attraverso l'utilizzo della dimostrazione per assurdo (metodo di Euclide):<br>
+Se \(\sqrt{2}\) fosse razionale allora:<br>
+\[\sqrt{2}=\frac{p}{q}\]
+se eleviamo tutto al quadrato avremo \(2=\frac{p^2}{q^2}\), quindi:<br>
+\[2q^2=p^2\]
+Allora \(p^2\) è un numero pari e può essere scomposto in \(2a\), che elevato al quadrato sarà \(4a^2\)<br>
+\[2q^2=4a^2\]
+Che semplificato diventa:<br>
+\[q^2=2a^2\]
+Ora, lo stesso ragionamento fatto in precedenza è applicabile a \(q\) (che deve essere un numero pari):<br>
+\[2b^2=a^2\]
+Ciò porta ad un ragionamento a cascata che arriva a dimostrare che sia \(q\) che \(p\) sono infinitamente scomponibili,
+cosa impossibile dato che ogni numero intero è scomponibile in un numero intero di numeri primi. Per questo motivo la nosta asserzione iniziale è sbagliata (\(\sqrt{2}\) è irrazionale).</p>
+</body>
+</html>
