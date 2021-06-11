@@ -9,4 +9,4 @@ function inputField(){
   }
   console.log(btn.classList)
 }
-btn.addEventListener("click", inputField)
+btn.addEventListener("click", inputField);
