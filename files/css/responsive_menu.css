@@ -1,5 +1,8 @@
       @media (min-width:601px){
-        .clicked ~ #searchBox{
+        input{
+          display:none;
+        }
+        .clicked{
           display:inline-block;
         }
 	      body>.menu-responsive{

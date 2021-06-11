@@ -1,12 +1,12 @@
 const btn = document.getElementById("searchButton");
+const input = document.getElementById("searchBox");
 function inputField(){
-  console.log(btn.classList)
-  if (btn.classList.contains("clicked")){
-    btn.classList.remove("clicked");
+  if (input.classList.contains("clicked")){
+    input.classList.remove("clicked");
   }
   else{
-    btn.classList.add("clicked");
+    input.classList.add("clicked");
   }
-  console.log(btn.classList)
+  console.log(input.classList);
 }
 btn.addEventListener("click", inputField);
