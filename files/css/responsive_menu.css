@@ -1,7 +1,4 @@
       @media (min-width:601px){
-        input{
-          display:none;
-        }
         .clicked ~ #searchBox{
           display:inline-block;
         }
