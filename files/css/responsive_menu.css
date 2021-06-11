@@ -1,9 +1,9 @@
       @media (min-width:601px){
         input{
-          display:none;
+          visibility:hidden;
         }
         .clicked{
-          display:inline-block;
+          visibility:visible;
         }
 	      body>.menu-responsive{
           display:none;
