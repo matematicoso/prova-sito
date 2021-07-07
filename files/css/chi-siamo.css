@@ -30,7 +30,7 @@
   flex-direction:column;
 }
 }
-div{
+.chi-siamo{
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
