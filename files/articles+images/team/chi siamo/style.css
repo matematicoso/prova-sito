@@ -1,0 +1,125 @@
+@media (min-width:801px){
+  .main-img{
+  width:40%;
+  border-radius:25px;
+  box-shadow:0 0 20px;
+  object-fit:cover;
+  margin:0 25px 0 25px;
+  transition:700ms;
+}
+.main-img:hover{
+  transform:rotate(25deg);
+}
+}
+@media (max-width:800px){
+  .main-img{
+  width:90%;
+  border-radius:10px;
+  box-shadow:0 0 10px;
+  object-fit:cover;
+  margin:25px;
+}
+}
+@media (max-width:900px){
+#destra{
+  display:none;
+}
+}
+@media (max-width:500px){
+.altri{
+  flex-direction:column;
+}
+}
+div{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+body{
+  font-family:'EB Garamond','Cormorant Garamond',serif;
+}
+h3{
+  font-size:2.5em;
+  text-align:center;
+}
+p{
+  font-size:1.5em;
+  margin:0 25px 0 25px;
+  max-width:620px;
+  flex:1;
+  min-width:350px;
+}
+main{
+  max-width:1200px;
+  margin:auto;
+}
+.team{
+  display:inline-block;
+  width:26%;
+  min-width:300px;
+  text-align:center;
+  margin:0 30px 50px 30px;
+  border-radius:25px;
+  box-shadow:0 0 25px;
+}
+.team-img{
+  max-width:80%;
+  border-radius:50%;
+  border:1px solid #ccc;
+  background-color:#f5f5f5;
+  margin-top:2em;
+}
+.ruolo{
+  margin:0 0 1em 0;
+  font-style:italic;
+  min-width:auto;
+}
+h4{
+  font-size:2em;
+  margin:0.5em 0 0.5em 0;
+}
+.partecipanti{
+  display:inline-block;
+  width:26%;
+  min-width:300px;
+  text-align:center;
+  margin:50px 30px 50px 30px;
+  border-radius:25px;
+  box-shadow:0 0 25px;
+}
+.altri{
+  flex-wrap:nowrap;
+  align-items:center;
+}
+.freccia{
+  width:70px;
+  font-size:3em;
+  background-color:#6ad5fc;
+  border:none;
+  border-radius:50%;
+  box-shadow: 0 0 10px;
+}
+.freccia:hover{
+  background-color:#25abdb;
+}
+.freccia:active{
+    box-shadow: inset 0 0 10px,
+    0 0 10px;
+}
+.link{
+  text-decoration:underline;
+  color:blue;
+}
+.contatti{
+  text-align: center;
+  font-size:2em;
+  max-width:100%;
+}
+.contatti-img{
+  width:15%;
+  border-radius:25px;
+  box-shadow:0 0 20px;
+  object-fit:cover;
+  margin:0 25px 0 25px;
+  transition:700ms;
+}
