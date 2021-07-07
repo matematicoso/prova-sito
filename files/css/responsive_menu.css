@@ -65,7 +65,7 @@
             line-height:200%;
 	          background-color:white;
           }
-          .Quarto-livello:hover .Quinto-livello{
+          .Quarto-livello:hover .Quinto-livello,.Quinto-livello-b{
             display:inline;
             position: absolute;
             right:0px;
