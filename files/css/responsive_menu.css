@@ -71,6 +71,9 @@
             right:0px;
             width:76%;
           }
+          .Quarto-livello>div{
+            display:none;
+          }
           .Primo-livello{
             display:inline-block;
             font-size:1.5vw;
