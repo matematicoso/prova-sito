@@ -68,7 +68,8 @@
           .Quarto-livello>div{
             display:none;
           }
-          .Quarto-livello>div:target{
+          [href="#matematica"]:hover ~#matematica,
+          [href="#intrattenimento"]:hover ~#intrattenimento{
             display:inline;
             position: absolute;
             right:0px;
