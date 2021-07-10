@@ -65,14 +65,14 @@
             line-height:200%;
 	          background-color:white;
           }
+          .Quarto-livello>div{
+            display:none;
+          }
           .Quarto-livello>div:target{
             display:inline;
             position: absolute;
             right:0px;
             width:76%;
-          }
-          .Quarto-livello>div{
-            display:none;
           }
           .Primo-livello{
             display:inline-block;
