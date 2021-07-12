@@ -74,7 +74,8 @@
             position: absolute;
             right:0px;
             top:0px;
-            width:76%;
+            width:75%;
+            padding-left:25%;
           }
           .Primo-livello{
             display:inline-block;
